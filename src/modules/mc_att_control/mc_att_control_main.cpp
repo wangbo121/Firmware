@@ -102,7 +102,7 @@ extern "C" __EXPORT int mc_att_control_main(int argc, char *argv[]);
 #define AXIS_COUNT 3
 
 #define MAX_GYRO_COUNT 3
-
+//20170724 start rewrite px4
 class MulticopterAttitudeControl
 {
 public:
